@@ -1,18 +1,18 @@
 export const syncBasic = () => {
-	const logTwo = () => {
-		console.log(2);
-	};
+  const logTwo = () => {
+    console.log(2);
+  };
 
-	const logTwoAndThree = (message) => {
-		logTwo();
-		console.log(message);
-	};
+  const logTwoAndThree = (message) => {
+    logTwo();
+    console.log(message);
+  };
 
-	console.log(1);
+  console.log(1);
 
-	logTwoAndThree(3);
+  logTwoAndThree(3);
 
-	console.log(4);
+  console.log(4);
 };
 
-// syncBasic();
+syncBasic();
